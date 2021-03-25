@@ -24,14 +24,20 @@ nav ul li{
     display: inline-block;
     margin-right: 20px;
 }
+
+nav-link{
+color: #000000;
+}
+
 a{
-    text-decoration: none;
-    color: #555;
+color: #000000;
+text-decoration: none;
 }
 p{
     color: #555;
 }
 .container{
+    color: #000000;
     max-width: 1300px;
     margin: auto;
     padding-left: 25px;
@@ -107,27 +113,30 @@ p{
 
 /***Login and registration code*/
 
-.website-form{
-width: 892px;
-height: 1198px;
+
+.website-login{
 display: block;
+margin-top: 90px;
 margin-left: auto;
 margin-right: auto;
-margin-bottom: 30px;
+margin-bottom: 40px;
+
+width: 892px;
+height: 1298px;
 background: #FFFFFF;
 border: 1px solid #000000;
 box-sizing: border-box;
 
 }
 
-.form-title{
-width: 644px;
+.login-title{
+margin-top: 50px;
+margin-left: 350px;
+margin-right: auto;
+margin-bottom: 40px;
+
+width: 344px;
 height: 87px;
-
-position: absolute;
-left: 610px;
-top: 280px;
-
 
 font-family: Montserrat;
 font-style: normal;
@@ -139,13 +148,34 @@ color: #000000;
 
 }
 
-.form-subtitle{
+
+.sign-up-title{
+margin-top: 50px;
+margin-left: 310px;
+margin-right: auto;
+margin-bottom: 40px;
+
+width: 344px;
+height: 87px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 64px;
+line-height: 78px;
+
+color: #000000;
+}
+
+
+.login-subtitle{
+display: block;
+margin-top: 20px;
+margin-left: 280px;
+
 width: 392px;
 height: 57px;
 
-position: absolute;
-left: 555px;
-top: 400px;
 
 font-family: Raleway;
 font-style: normal;
@@ -161,7 +191,27 @@ color: #000000;
 .sign-up{
 color: #0365D8;
 }
+.sign-up:hover{
+color: #a3baff
+}
 
+.login-logo{
+width: 75px;
+height: 66px;
+
+position: relative;
+top: 20px;
+left: 20px;
+
+}
+
+.login-container{
+width: 528px;
+height: 100px;
+
+margin-top: 50px;
+margin-left: 190px;
+}
 
 .login-text{
 font-family: Cabin;
@@ -169,40 +219,26 @@ font-style: normal;
 font-weight: normal;
 font-size: 25px;
 line-height: 30px;
-
 color: #FFFFFF;
+
+position: relative;
+left: 200px;
+bottom: 30px;
 }
 
-.login-container{
-width: 528px;
-height: 100px;
-}
-
-.login-text{
-position: absolute;
-left: 240px;
-bottom: 40px;
-}
 
 .facebook-container{
-position: absolute;
-left: 455px;
-top: 600px;
 background: #0365D8;
 }
 
 .google-container{
-position: absolute;
-left: 455px;
-top: 750px;
-
 background: #479CFF;
 }
 
 .or-container{
-position: absolute;
-left: 685px;
-top: 980px;
+position: relative;
+top: 160px;
+left: 440px;
 }
 
 .or-text{
@@ -219,30 +255,30 @@ color: #000000;
 }
 
 .or-line{
-width: 269px;
+width: 289px;
 height: 0px;
-
-position:absolute;
-top: 15px;
-
-border: 0.4px solid #000000;
+border: 0.5px solid #d1d1d1;
 }
 
 .or-line-1{
 position: absolute;
-right: 100px;
+top: 10px;
+right: 920px;
 }
 
 .or-line-2{
 position: absolute;
-left: 100px;
+top: 10px;
+left: 80px;
 }
 
 
 .login-with-email-container{
-position: absolute;
-left: 515px;
-top: 1130px;
+position: relative;
+left: 250px;
+top: 250px;
+
+text-align: center;
 
 width: 430px;
 height: 67px;
@@ -254,13 +290,7 @@ box-sizing: border-box;
 }
 
 .login-with-email-text{
-position: absolute;
-left: 110px;
-top: 20px;
-
-width: 228px;
-height: 37px;
-
+padding-top: 10px;
 font-family: Montserrat;
 font-style: normal;
 font-weight: 500;
@@ -271,9 +301,9 @@ color: #000000;
 }
 
 .privacy-policy-container{
-position: absolute;
-left: 465px;
-top: 1300px;
+position: relative;
+left: 200px;
+top: 390px;
 
 width: 645px;
 height: 49px;
