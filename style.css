@@ -60,21 +60,26 @@ p{
     padding: 50px 0;
 }
 .col-2 h1{
-    font-size: 50px;
+    font-size: 65px;
     line-height: 60px;
     margin: 25px 0;
 }
-.btn{
+
+.col-2 p {
+        font-size: 30px;
+        margin: 25px 0;
+    }
+.shopbtn{
     display: inline-block;
     background: #ff523b;
     color: #fff;
     padding: 8px 30px;
-    margin: 30px 0;
+    margin-left: 350px;
     border-radius: 30px;
     transition: background 0.5s;
 }
 
-.btn:hover{
+.shopbtn:hover{
     background: #563434;
 }
 
@@ -95,6 +100,7 @@ p{
 .small-container{
     max-width: 1080px;
     margin: auto;
+    padding-top: 100px;
     padding-left: 25px;
     padding-right: 25px;
 }
@@ -419,3 +425,17 @@ color: #777474;
     display:block;
 }
 
+
+.btn {
+    display: inline-block;
+    background: #ff523b;
+    color: #fff;
+    padding: 8px 30px;
+    margin: 30px 0;
+    border-radius: 30px;
+    transition: background 0.5s;
+}
+
+    .btn:hover {
+        background: #563434;
+    }
