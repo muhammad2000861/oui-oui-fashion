@@ -45,12 +45,13 @@ p{
 
     font-family: Montserrat;
 }
-.row{
+.row {
     display: flex;
     align-items: center;
     flex-wrap: wrap;
     justify-content: space-around;
 }
+
 .col-2 {
     flex-basis: 50%;
     min-width: 300px;
@@ -61,20 +62,46 @@ p{
 }
 .col-2 h1{
     font-size: 65px;
-    line-height: 60px;
+    line-height: 70px;
     margin: 25px 0;
+    padding-left: 200px;
 }
 
 .col-2 p {
         font-size: 30px;
-        margin: 25px 0;
+        margin: 0 50px 0 200px; 
     }
+
+.col-2 hr{
+    max-width: 82%;
+}
+.col-2.img2 {
+        max-width: 100%;
+        margin-left: 50px;
+    }
+
+
+.offercontainer {
+    height: 850px;
+    background-image: url(Images/img12.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
+}
+
+.offer {
+    margin-left: 1050px;
+    font-family: Montserrat;
+    font-size: 80px;
+    padding-top: 250px;
+}
+
 .shopbtn{
     display: inline-block;
     background: #ff523b;
     color: #fff;
     padding: 8px 30px;
-    margin-left: 350px;
+    margin-left: 1250px;
     border-radius: 30px;
     transition: background 0.5s;
 }
@@ -89,6 +116,7 @@ p{
 .categories{
     margin: 70px 0;  
 }
+
 .col-3{
     flex-basis: 30%;
     min-width: 250px;
@@ -430,22 +458,6 @@ color: #777474;
     padding-top: 50px;
     font-weight: bold;
     color: white;
-}
-
-.offercontainer {
-    height: 850px;
-    background-image: url(Images/img10.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: right;
-
-}
-
-.offer {
-    margin-left: 150px;
-    font-family: Montserrat;
-    font-size: 80px;
-    padding-top: 350px;
 }
 
 .img1 {
