@@ -78,7 +78,27 @@ p{
 .col-2.img2 {
         max-width: 100%;
         margin-left: 50px;
-    }
+}
+
+.slogan-1{
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 25px;
+line-height: 30px;
+color: #5e5e5e;
+}
+
+.slogan-2{
+font-family: Yellowtail;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 20px;
+color: ##000000;
+}
+
+
 
 
 .offercontainer {
