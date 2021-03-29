@@ -503,3 +503,15 @@ color: #777474;
     .btn:hover {
         background: #563434;
     }
+
+    /****contact us page form****/
+
+.form{
+    text-align: center;
+    margin-top: 30px;
+   
+}
+.heading2{
+    text-align: center;
+    margin-bottom: 20px;
+}
