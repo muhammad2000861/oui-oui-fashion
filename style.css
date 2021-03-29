@@ -36,7 +36,15 @@ nav-link{
 a{
     color: #000000;
     text-decoration: none;
+
+color: #000000;
 }
+
+a{
+color: #000000;
+text-decoration: none;
+}
+
 p{
     color: #555;
 }
@@ -74,6 +82,8 @@ p{
 .col-2 p {
     font-size: 30px;
     margin: 0 50px 0 200px; 
+    font-size: 30px;
+    margin: 0 50px 0 200px; 
 }
 
 .col-2 hr{
@@ -100,6 +110,26 @@ p{
     font-size: 20px;
     line-height: 20px;
     color: #000000;
+        max-width: 100%;
+        margin-left: 50px;
+}
+
+.slogan-1{
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 25px;
+line-height: 30px;
+color: #5e5e5e;
+}
+
+.slogan-2{
+font-family: Yellowtail;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 20px;
+color: #000000;
 }
 
 
@@ -293,6 +323,150 @@ p{
 
 /***about us page**/
 
+
+.title:after{
+    content: '';
+    background: #000000;
+    width: 80px;
+    height: 5px;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.col-4:hover{
+    transform: translateY(-5px);
+}
+
+.footer{
+    
+    color: #8a8a8a;
+    font-size: 14px;
+    padding: 60px;
+    margin-top: 40px;
+}
+.app-logo{
+    margin-top: 20px;
+}
+.app-logo img{
+    width: 140px;
+}
+.footer hr{
+    border: none;
+    background: #0f0f0f;
+    height: 1px;
+    margin: 20px 0;
+}
+.copyright{
+    text-align: center;
+}
+
+/***about us page**/
+
+.description{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 50px;
+}
+.founder{
+    text-align: center;
+}
+
+/***contact us***/
+
+.contact{
+    text-align: center;
+    font-size: 24px;
+}
+.details{
+    text-align: center;
+    font-size: 22px;
+    margin-top: 30px;
+}
+
+.message-form{
+margin: 50px 0px 0px 250px;
+}
+
+.form-input{
+margin-top: 20px;
+min-height: 30px;
+min-width: 500px;
+}
+
+.message-input{
+margin-bottom: 10px;
+height: 100px;
+width: 500px;
+}
+
+/***Login and registration*/
+
+
+.website-login{
+display: block;
+margin-top: 90px;
+margin-left: auto;
+margin-right: auto;
+margin-bottom: 40px;
+
+width: 892px;
+height: 1298px;
+background: #FFFFFF;
+border: 1px solid #000000;
+box-sizing: border-box;
+
+}
+
+.login-title{
+margin-top: 50px;
+margin-left: 350px;
+margin-right: auto;
+margin-bottom: 40px;
+
+width: 344px;
+height: 87px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 64px;
+line-height: 78px;
+
+color: #000000;
+
+}
+
+
+.sign-up-title{
+margin-top: 50px;
+margin-left: 310px;
+margin-right: auto;
+margin-bottom: 40px;
+
+width: 344px;
+height: 87px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 64px;
+line-height: 78px;
+color: #000000;
+}
+
+
+.productQuantity{
+    position: absolute;
+width: 170px;
+height: 27px;
+left: 865px;
+top: 772px;
+}
 .description{
     font-family: Montserrat;
     font-style: normal;
@@ -482,6 +656,101 @@ color: #000000;
 
 .not-member-yet{
     color: #000000;
+font-family: Montserrat;
+font-style: normal;
+font-weight: 300;
+font-size: 20px;
+line-height: 34px;
+padding: 0;
+border: none;
+background: none;
+text-decoration: underline;
+}
+
+.login-subtitle{
+display: block;
+margin-top: 20px;
+margin-left: 280px;
+
+width: 392px;
+height: 57px;
+
+
+font-family: Raleway;
+font-style: normal;
+font-weight: normal;
+font-size: 25px;
+line-height: 29px;
+}
+
+.not-member-yet{
+color: #000000;
+}
+
+.sign-up{
+color: #0365D8;
+}
+.sign-up:hover{
+color: #a3baff
+}
+
+.login-logo{
+width: 75px;
+height: 66px;
+
+position: relative;
+top: 20px;
+left: 20px;
+
+}
+
+.login-container{
+width: 528px;
+height: 100px;
+
+margin-top: 50px;
+margin-left: 190px;
+}
+
+.login-text{
+font-family: Cabin;
+font-style: normal;
+font-weight: normal;
+font-size: 25px;
+line-height: 30px;
+color: #FFFFFF;
+
+position: relative;
+left: 200px;
+bottom: 30px;
+}
+
+
+.facebook-container{
+background: #0365D8;
+}
+
+.google-container{
+background: #479CFF;
+}
+
+.or-container{
+position: relative;
+top: 160px;
+left: 440px;
+}
+
+.or-text{
+width: 33px;
+height: 42px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 36px;
+line-height: 30px;
+color: #000000;
+
 }
 
 .sign-up{
@@ -698,9 +967,131 @@ p {
     transition: background 0.5s;
 }
 
-    .btn:hover {
-        background: #424242;
-    }
+.or-line{
+width: 289px;
+height: 0px;
+border: 0.5px solid #d1d1d1;
+}
+
+.or-line-1{
+position: absolute;
+top: 10px;
+right: 920px;
+}
+
+.or-line-2{
+position: absolute;
+top: 10px;
+left: 80px;
+}
+
+
+.login-with-email-container{
+position: relative;
+left: 250px;
+top: 250px;
+
+text-align: center;
+
+width: 430px;
+height: 67px;
+
+background: #FFFFFF;
+border: 1px solid #000000;
+box-sizing: border-box;
+
+}
+
+.login-with-email-text{
+padding-top: 10px;
+font-family: Montserrat;
+font-style: normal;
+font-weight: 500;
+font-size: 25px;
+line-height: 30px;
+
+color: #000000;
+}
+
+.privacy-policy-container{
+position: relative;
+left: 200px;
+top: 390px;
+
+width: 645px;
+height: 49px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 29px;
+
+color: #777474;
+
+}
+
+/*----Product Shop----*/
+
+.browsetitle {
+    margin-top: 50px;
+    position: center;
+    font-family: Montserrat;
+    font-size: large;
+
+}
+
+.hline {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 2px solid #ccc;
+    margin: 0;
+    padding: 0;
+}
+
+.spanimg {
+    height: 300px;
+}
+
+.slogan1 {
+    margin-left: 1200px;
+    font-family: Montserrat;
+    font-size: 80px;
+    padding-top: 250px;
+}
+
+.titlecontainer {
+    height: 900px;
+    background-image: url(Images/img6.jpg);
+}
+
+.slogan2 {
+    margin-left: 1200px;
+    font-family: Montserrat;
+    padding-top: 50px;
+    font-weight: bold;
+    color: white;
+}
+
+.img1 {
+    display:block;
+}
+
+
+.btn {
+    display: inline-block;
+    background: #000000;
+    color: #fff;
+    padding: 8px 30px;
+    margin: 30px 0;
+    border-radius: 30px;
+    transition: background 0.5s;
+}
+
+.btn:hover {
+    background: #424242;
+}
 
     /****contact us page form****/
 
